@@ -1,0 +1,38 @@
+.banners-img-list__item-image {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banners-img-list__item-link {
+  display: block;
+}
+.banners-img-list__item-image--more {
+  padding-top: 30%;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .banners-img-list__item-image.banners-img-list__item-image--one {
+    height: 180px;
+  }
+}
+@media (max-width: 991px) {
+  .banners-img-list__item-image.banners-img-list__item-image--one {
+    padding-bottom: 19%;
+    background-size: cover;
+  }
+}
+.grid-list--items-2.grid-list--no-gap {
+  display: block;
+}
+.banners-img-list__item-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.banners-only-img-template {
+  padding-bottom: 40px;
+  background-color: #fff;
+}
+.fil2:hover {
+  fill: #EF7F1A;
+}
